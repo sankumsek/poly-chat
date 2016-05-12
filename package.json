@@ -1,0 +1,28 @@
+{
+  "name": "poly-chat",
+  "version": "0.0.1",
+  "description": "A sample chat application that could possibly be extended",
+  "author": "Sanjeev Sekar <sankumsek@gmail.com>",
+
+
+  },
+  "keywords": [
+    "nodejitsu",
+    "example",
+    "browsenpm"
+  ],
+  "dependencies": {
+    "pubnub-angular": "3.2.0"
+  },
+  "devDependencies": {
+
+  },
+  "preferGlobal": true,
+  "private": true,
+  "publishConfig": {
+    "registry": "https://your-private-hosted-npm.registry.nodejitsu.com"
+  },
+
+
+  "license": "MIT"
+}
