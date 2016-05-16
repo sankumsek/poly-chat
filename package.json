@@ -5,12 +5,6 @@
   "author": "Sanjeev Sekar <sankumsek@gmail.com>",
 
 
-  },
-  "keywords": [
-    "nodejitsu",
-    "example",
-    "browsenpm"
-  ],
   "dependencies": {
     "pubnub-angular": "3.2.0"
   },
