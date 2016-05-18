@@ -11,7 +11,7 @@ angular.module('app',[pubnub.angular.service])
           uuid: $scope.uuid
        });
        //sends the messages over PubNub network
-       $scope.sendMessage(){
+       $scope.sendMessage = function(){
             //dont' send an empty message
             if (!$scope.messageContent || $scope.messageContent === ""){
                 return;
@@ -20,8 +20,8 @@ angular.module('app',[pubnub.angular.service])
                 channel: $scope.channel,
                 message: {
                     content: $scope.messageContent,
-                    sender_uuid: $scope.uuid
-                    date: new.Date()
+                    sender_uuid: $scope.uuid,
+                    date: new Date()
                 },
                 callback: function(m) {
                     console.log(m);
